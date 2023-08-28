@@ -31,14 +31,15 @@ This project uses the APTOS 2019 Blindness Detection dataset from Kaggle to trai
 
 3. Clone the repository and run the notebook:
     ```bash
-    git clone [YOUR_REPOSITORY_LINK]
-    cd [YOUR_REPOSITORY_DIRECTORY]
+    git clone [REPOSITORY_LINK]
+    cd [REPOSITORY_DIRECTORY]
     jupyter notebook
     ```
+    if you are working on colab , put '!' before it
 
 ## Results
 
-The model uses a combination of transfer learning (with ResNet50 as the base model) and a dense layer to classify images into one of five classes of diabetic retinopathy severity. With the current setup, the model achieves an accuracy of `76% & 65%` on the validation set.
+The model uses a combination of transfer learning (with ResNet50 as the base model) and a dense layer to classify images into one of five classes of diabetic retinopathy severity. With the current setup, the model achieves an accuracy of `76% for Blindness_Detection_bett & 65% for Blindness_Detection` on the validation set.
 
 
 ## Acknowledgements
